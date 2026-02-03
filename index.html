@@ -1,22 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>My First Website</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="My personal blog and practice working in HTML, CSS, and Javascript. Check it out... If you dare?">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/idd0kib.css">
+    <title>Thomas Sage Home</title>
+    <style>
+        nav.top-menu ul {
+            font-size: larger;
+            list-style-type: none;
+            margin: 0;
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 80px;
+
+
+        }
+         body {
+            font-family: "helvetica-lt-pro", sans-serif;
+font-weight: 400;
+font-style: normal;
+            display:flex;
+            flex-direction: column;
+             max-width: 800px;        /* Content never wider than 800px */
+            margin-left: auto;       /* Auto margins center it */
+            margin-right: auto;      /* Auto margins center it */
+            padding: 20px;  
+            align-items: left;
+            text-align: left;
+            min-height: 100vh;
+            background-color: rgb(56, 174, 154);
+            background-image: url(clouds.png);
+            background-repeat: repeat;
+        }
+    </style>
+     <link rel="icon" href="favicon.ico">
 </head>
 <body>
+    <nav class="top-menu">
+                <ul>
+                    <li><a href="index.html">Why is there a gap here?----------------></a><li>
+                    <li><a href="https://www.merriam-webster.com/dictionary/about">About</a></li>
+                    <li><a href="blog.html">Blog Posts</a></li>
+                    <li><a href="https://youtu.be/JI5noh4OyXc">Contact</a></li>
+                </ul>
+    </nav>
+    <h1>ARTS 512</h1>
+    <h2>Welcome to my website</h2>
 
-    <h1>Cool words, dude. Time to friggin website LOLS</h1>
-    <h2>A liiiiitle bit about myself :P</h2>
+    <p>I am currently using my life drawing class as an opportunity to learn HDML. The website is very much a work in progress, but gaining a real understanding of HDML will lead to much more interesting opportunities for design and interactivity than what is provided by many website building services.</p>
 
-    <p>Hello~ I am learning how to build websites :D It's pretty easy once you get the hang of it</p>
-
-    <h3>My life goals :D</h3>
-    <ul>
-        <li>Understand basic HTML tags</li>
-        <li>Learn how to link pages together</li>
-        <li>Try out some simple CSS colors BRRRRRRRUMP BRAAP GAGAGAGAH</li>
+    <h3>The <a href="blog.html" target="_blank">Blog Page</a></p>
+        <p>If you are here, this is probably the reason. It is the only part of this <a href="https://en.wikipedia.org/wiki/Website" target="_blank">website</a> that is <a href="https://www.merriam-webster.com/dictionary/functional" target="_blank">functional</a>.</p>
     </ul>
 
-    <p>You can find more info on <a href<="https://www.google.com" target="_blank">Google</a></p>
+    <p>You can find more info <a href="blog.html" target="_blank">here</a>.</p>
 </body>
 </html>
